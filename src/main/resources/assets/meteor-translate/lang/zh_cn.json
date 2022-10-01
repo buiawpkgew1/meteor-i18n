@@ -288,7 +288,7 @@
   "meteor-translate.module.nuker.title": "核弹",
   "meteor-translate.module.nuker.description": "破坏你周围的方块（像核弹一样）。",
   "meteor-translate.module.stash-finder.title": "StashFinder",
-  "meteor-translate.module.stash-finder.description": "在加载的区块中搜索存储块。保存到 \u003cyour minecraft folder\u003e/meteor-client",
+  "meteor-translate.module.stash-finder.description": "在加载的区块中搜索存储块。保存到 <your minecraft folder>/meteor-client",
   "meteor-translate.module.spawn-proofer.title": "SpawnProofer",
   "meteor-translate.module.spawn-proofer.description": "自动生成无光照区域。",
   "meteor-translate.module.timer.title": "游戏加速",
