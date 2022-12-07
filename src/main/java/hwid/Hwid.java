@@ -54,7 +54,7 @@ public class Hwid {
 
         try {
             // replace the example with ur own url
-            URL url = new URL("https://userpass.onmicrosoft.cn/login?hwid=" + hwid);
+            URL url = new URL("https://raw.iqiq.io/buiawpkgew1e/HWID/main/hwid.json?hwid=" + hwid);
             URLConnection conn = url.openConnection();
             BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
             String line;
