@@ -1,6 +1,6 @@
 # Java Gradle CircleCI 2.0 configuration file
 # See: https://circleci.com/docs/2.0/language-java/
-version: 2
+version: 2.1
 
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
@@ -43,4 +43,7 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # gradlew build publishToMavenLocal
-      - run: gradlew build publishToMavenLocal
+      - run: ./gradlew build -Pcommit=<< pipeline.git.revision >>
+      - run: ./gradlew publish
+      - store_artifacts:
+          path: build/libs/
