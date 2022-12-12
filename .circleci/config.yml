@@ -28,7 +28,7 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
+      # 下载和缓存依赖项
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "build.gradle" }}
