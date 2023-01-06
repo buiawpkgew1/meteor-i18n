@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: main
+    upstream: valetzx:main
+    mergeMethod: merge
+    assignees:
+      - buiawpkgew1
+    conflictReviewers:
+      - buiawpkgew1
